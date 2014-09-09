@@ -1,0 +1,10 @@
+{
+  "name" : "shoelace-ui-placeholder",
+  "version" : "0.0.1",
+  "description" : "Placeholder block mixin",
+  "repository" : "https://github.com/shoelace-ui/placeholder.git",
+  "keywords" : ["shoelace", "input", "placeholder"],
+  "author" : "Michael Andrew Vanasse <mail@mndvns.com>",
+  "license" : "MIT",
+  "dependencies": {}
+}

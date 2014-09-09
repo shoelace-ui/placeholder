@@ -1,0 +1,40 @@
+/**
+ * Define `placeholder` block mixin.
+ *
+ * Usage:
+ *
+ *   input
+ *     color: red
+ *     +placeholder()
+ *       color: blue
+ *
+ * Output:
+ *
+ *   input {
+ *     color: red;
+ *   }
+ *
+ *   input::-webkit-input-placeholder {
+ *     color: blue;
+ *   }
+ *
+ *   input::-moz-placeholder {
+ *     color: blue;
+ *   }
+ *
+ *   input:-moz-placeholder {
+ *     color: blue;
+ *   }
+ *
+ *   input:-ms-placeholder {
+ *     color: blue;
+ *   }
+ *
+ */
+
+placeholder()
+  &::-webkit-input-placeholder
+  &::-moz-placeholder
+  &:-moz-placeholder
+  &:-ms-input-placeholder
+    {block}
