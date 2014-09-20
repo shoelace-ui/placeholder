@@ -1,9 +1,9 @@
 {
   "name" : "shoelace-ui-placeholder",
-  "version" : "0.0.1",
+  "version" : "0.1.0",
   "description" : "Placeholder block mixin",
   "repository" : "https://github.com/shoelace-ui/placeholder.git",
-  "keywords" : ["shoelace", "input", "placeholder"],
+  "keywords" : ["stylus", "shoelace", "input", "placeholder"],
   "author" : "Michael Andrew Vanasse <mail@mndvns.com>",
   "license" : "MIT",
   "dependencies": {}
